@@ -87,6 +87,8 @@ OpenEMR has experienced various security challenges over the years, including cr
 -------------------------------------------------------
 **Reference Links:**
 -------------------------------------------------------
+<https://github.com/openemr/openemr>
+
 <https://www.open-emr.org/wiki/index.php/Security_Assessment>
 
 <https://www.open-emr.org/wiki/index.php/Securing_OpenEMR>
