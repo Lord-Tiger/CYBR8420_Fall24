@@ -9,7 +9,24 @@ In order to streamline our medical operations and improve efficiency, accessibil
 -------------------------
 **Software Description**
 -------------------------
-According to the decription provided on OpenEMR's website, The community of behind the project is committed to maintaining OpenEMR as a free, open-source software solution for medical practices, the platform enjoys robust support from both users and developers. With over 4,000 downloads per month and contributions from more than 200 developers and companies, OpenEMR is the most widely used free electronic medical records system today. Its codebase is continuously improved through open collaboration, and the software is available in more than 30 languages, making it a truly global solution for healthcare providers.
+According to the decription provided on OpenEMR's website, The community of behind the project is committed to maintaining OpenEMR as a free, open-source software solution for medical practices, the platform enjoys robust support from both users and developers. With over 4,000 downloads per month and contributions from more than 200 developers and companies, OpenEMR is the most widely used free electronic medical records system today. Its codebase is continuously improved through open collaboration, and the software is available in more than 30 languages, making it a truly global solution for healthcare providers. 
+
+OpenEMR uses the following programming in its code:
+
+PHP 83.9%
+
+JavaScript 5%
+
+XSLT 4.1%
+
+HTML 3.2%
+
+CSS 1.2%
+
+Twig 1.1%
+
+Other 1.5%
+
 
 -----------------------------------
 **System Engineering View Diagram**
