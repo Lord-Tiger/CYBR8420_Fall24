@@ -1,5 +1,6 @@
+------------------------------
 **Perceived Security Threats**
-
+------------------------------
 Users of OpenEMR, an open-source electronic medical records (EMR) and practice management system, typically face a range of threats typical for healthcare digital environments. These threats often relate to the sensitive nature of healthcare data and the operational context of healthcare delivery. Here are some of the key threats:
 
 **Data Security & Privacy Threats:** From malware and ransomware attacks to insider threats and data loss due to breaches and disasters.
@@ -14,8 +15,9 @@ Users of OpenEMR, an open-source electronic medical records (EMR) and practice m
 
 **Remote Access Security:** With the rise of telehealth and remote access, the use of weak remote access protocols can result in data exposure or data loss if proper, strong encryption and authentication protocols are not in place. If personal devices are allowed, unsecure, unmanaged devices used by staff accessing OpenEMR remotely may expose the system to cyber threats.
 
+-----------------------------
 **OpenEMR Security Features**
-
+-----------------------------
 OpenEMR is built with a variety of security features designed to protect patient data, ensure privacy, and comply with regulations like HIPAA (Health Insurance Portability and Accountability Act). Here are some of those features:
 
 1\. User Authentication and Access Controls
@@ -72,6 +74,7 @@ OpenEMR is built with a variety of security features designed to protect patient
 - Regular security updates.
 - Automatic Patching.
 
+-------------------------------------------------------
 **A Brief Summary of Security-Related OpenEMR History**
-
+-------------------------------------------------------
 OpenEMR has experienced various security challenges over the years, including critical vulnerabilities like RCE, SQL injection, and XSS. One recent example is a vulnerability discovered in 2023 that allowed remote attackers to steal sensitive information or execute arbitrary commands to take over the OpenEMR systems which has since been fixed. The platform has responded quickly with patches for that incident and others over the years and through various security feature improvements, and the adoption of modern best practices like 2FA, RBAC, and HTTPS. The open-source nature of the project ensures continuous audits, and the platform's commitment to improving its security posture remains strong.
