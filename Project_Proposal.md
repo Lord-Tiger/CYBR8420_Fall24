@@ -25,6 +25,8 @@ Users of OpenEMR, an open-source electronic medical records (EMR) and practice m
 
 **Remote Access Security:** With the rise of telehealth and remote access, the use of weak remote access protocols can result in data exposure or data loss if proper, strong encryption and authentication protocols are not in place. If personal devices are allowed, unsecure, unmanaged devices used by staff accessing OpenEMR remotely may expose the system to cyber threats.
 
+**Lack of dedicated support:** OpenEMR being an open-source solution, often depends on community support, which may not always be reliable or timely. This could result in delayed responses during critical system failures or attacks.
+
 -----------------------------
 **OpenEMR Security Features**
 -----------------------------
