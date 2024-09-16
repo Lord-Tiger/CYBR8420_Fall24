@@ -87,8 +87,12 @@ OpenEMR has experienced various security challenges over the years, including cr
 -------------------------------------------------------
 **Reference Links:**
 -------------------------------------------------------
-https://www.open-emr.org/wiki/index.php/Security_Assessment
-https://www.open-emr.org/wiki/index.php/Securing_OpenEMR
-https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md
-https://github.com/openemr/openemr?tab=readme-ov-file
-https://www.securityweek.com/vulnerabilities-in-openemr-healthcare-software-expose-patient-data/
+<https://www.open-emr.org/wiki/index.php/Security_Assessment>
+
+<https://www.open-emr.org/wiki/index.php/Securing_OpenEMR>
+
+<https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md>
+
+<https://github.com/openemr/openemr?tab=readme-ov-file>
+
+<https://www.securityweek.com/vulnerabilities-in-openemr-healthcare-software-expose-patient-data/>
