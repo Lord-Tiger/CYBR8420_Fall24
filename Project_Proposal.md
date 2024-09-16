@@ -7,7 +7,7 @@ In order to streamline our medical operations and improve efficiency, accessibil
 
 
 -------------------------
-**Software Description:**
+**Software Description**
 -------------------------
 According to the decription provided on OpenEMR's website, The community of behind the project is committed to maintaining OpenEMR as a free, open-source software solution for medical practices, the platform enjoys robust support from both users and developers. With over 4,000 downloads per month and contributions from more than 200 developers and companies, OpenEMR is the most widely used free electronic medical records system today. Its codebase is continuously improved through open collaboration, and the software is available in more than 30 languages, making it a truly global solution for healthcare providers.
 
@@ -100,7 +100,7 @@ OpenEMR is built with a variety of security features designed to protect patient
 OpenEMR has experienced various security challenges over the years, including critical vulnerabilities like RCE, SQL injection, and XSS. One recent example is a vulnerability discovered in 2023 that allowed remote attackers to steal sensitive information or execute arbitrary commands to take over the OpenEMR systems which has since been fixed. The platform has responded quickly with patches for that incident and others over the years and through various security feature improvements, and the adoption of modern best practices like 2FA, RBAC, and HTTPS. The open-source nature of the project ensures continuous audits, and the platform's commitment to improving its security posture remains strong.
 
 -----------------------
-**Project Motivation:**
+**Project Motivation**
 -----------------------
 For this project, we focused on the healthcare sector due to one of our team members' professional experience in the field, which we believed would bring valuable insights. We selected OpenEMR as our subject, as it is a globally recognized open-source healthcare software, used by institutions such as the Peace Corps. OpenEMR is fully functional, allowing patients to schedule appointments, manage payments, and access their prescriptions and lab results.
 
@@ -108,7 +108,7 @@ Healthcare providers can use the platform to view appointments, order lab tests,
 Additionally, we chose this project because it is a multi-user platform that faces various security threats and challenges, making it a compelling subject for our analysis.
 
 --------------
-**Team work:**
+**Team work**
 --------------
 After the team was formed, we initially faced challenges with communication. However, we resolved this by setting up a Discord server and creating a GitHub repository as required for the class. While one team member is still missing, we are moving forward with the project using the resources we have.
 
