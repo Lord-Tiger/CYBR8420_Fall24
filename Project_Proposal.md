@@ -1,7 +1,7 @@
 -----------------------------------
 **System Engineering View Diagram**
 -----------------------------------
-![image]()
+![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/main/Media/OpenEMR_SystemsEngineeringView.jpg)
 
 ------------------------------
 **Perceived Security Threats**
