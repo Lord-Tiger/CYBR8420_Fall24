@@ -28,7 +28,7 @@ OpenEMR is built with a variety of security features designed to protect patient
 1\. User Authentication and Access Controls
 
 - Role-Based Access so that access is assigned based on roles, for example, patient, doctor, admin etc.
-- Authentication, a secure login mechanism using usernames and passwords
+- Authentication, a secure login mechanism using usernames and passwords.
 - Two-Factor/Multi-Factor Authentication, the application allows for the use of 2FA/MFA to be used in addition to conventional usernames and passwords, such as tokens and push notifications.
 - User Lockouts that allows the system admin to configure it so accounts are locked out after a specific number of failed login attempts.
 - OAuth2 and JWT Authentication for API calls.
@@ -46,7 +46,7 @@ OpenEMR is built with a variety of security features designed to protect patient
 
 4\. Compliance with HIPPA & Other Regulations
 
-- OpenEMR features a guide that can be used to harden the application in order to reach compliance with HIPPA, it’s also, by design, made to meet the stringent requirements of HIPAA and other regulations to ensure the security and privacy of protected health information (PHI). It’s worth noting that while this may apply to the software itself, the system, network and other services that interact with the application have to be hardened themselves in order to reach total compliance.
+- OpenEMR features a guide that can be used to harden the application in order to achieve compliance with HIPPA, it’s also, by design, made to meet the stringent requirements of HIPAA and other regulations to ensure the security and privacy of protected health information (PHI). It’s worth noting that while this may apply to the software code itself, the system, network and other services that interact with the application have to be hardened themselves in order to reach total compliance.
 - Can achieve “ONC Certified” status with the purchase of a third party service module.
 
 5\. Database & System Security
