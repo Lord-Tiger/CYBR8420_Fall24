@@ -1,3 +1,11 @@
+---------------------------------
+**About The Omaha Health Clinic**
+---------------------------------
+Omaha Health Clinic is a mid-sized, community-focused healthcare provider located in Omaha Nebraska. It serves a diverse population of approximately 25,000 patients annually. The clinic offers a broad range of healthcare services including general practice, pediatrics, family medicine, mental health services as well as specialist consultations. Omaha Health is committed to providing high-quality care with a “Patient Wellness First!” objective. The clinic prioritizes wellness, accessibility and efficient service delivery.
+
+In order to streamline our medical operations and improve efficiency, accessibility and for better patient care, we have fully integrated a digital medical records system into our day-to-day functions. For this we have selected OpenEMR as our medical software of choice, and with the transition to EMR, Omaha Health has transitioned from outdated paper-based records to a more efficient, modern, digital record keeping approach, enabling doctors, nurses, and administrative staff to access critical patient data instantly from any secure device within the clinic's network, while also allowing the patients themselves to access their own medical and billing records remotely through a dedicated patient portal.
+
+
 -------------------------
 **Software Description:**
 -------------------------
