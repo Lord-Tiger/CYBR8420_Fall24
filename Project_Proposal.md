@@ -1,5 +1,5 @@
 ---------------------------------
-**About The Omaha Health Clinic**
+**The Omaha Health Clinic**
 ---------------------------------
 Omaha Health Clinic is a mid-sized, community-focused healthcare provider located in Omaha Nebraska. It serves a diverse population of approximately 25,000 patients annually. The clinic offers a broad range of healthcare services including general practice, pediatrics, family medicine, mental health services as well as specialist consultations. Omaha Health is committed to providing high-quality care with a “Patient Wellness First!” objective. The clinic prioritizes wellness, accessibility and efficient service delivery.
 
