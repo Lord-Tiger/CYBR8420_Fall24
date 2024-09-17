@@ -144,7 +144,7 @@ OpenEMR is built with a variety of security features designed to protect patient
 -------------------------------------------------------
 **A Brief Summary of Security-Related OpenEMR History**
 -------------------------------------------------------
-OpenEMR has experienced various security challenges over the years, including critical vulnerabilities like RCE, SQL injection, and XSS. One recent example is a vulnerability discovered in 2023 that allowed remote attackers to steal sensitive information or execute arbitrary commands to take over the OpenEMR systems which has since been fixed. The platform has responded quickly with patches for that incident and others over the years and through various security feature improvements, and the adoption of modern best practices like 2FA, RBAC, and HTTPS. The open-source nature of the project ensures continuous audits, and the platform's commitment to improving its security posture remains strong.
+OpenEMR has experienced various security challenges over the years, including critical vulnerabilities like RCE, SQL injection, and XSS. One recent example is a vulnerability discovered in 2023 that allowed remote attackers to steal sensitive information or execute arbitrary commands to take over the OpenEMR systems which has since been fixed. The platform has responded quickly with patches for that incident and others over the years and through various security feature improvements, and the adoption of modern best practices like MFA, role-based access controls, HTTPS and others. The open-source nature of the project ensures continuous audits, transparancy and future enhancments.
 
 -----------------------
 **Project Motivation**
