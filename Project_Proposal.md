@@ -154,9 +154,9 @@ For this project, we focused on the healthcare sector due to one of our team mem
 Healthcare providers can use the platform to view appointments, order lab tests, prescribe medication, and receive clinical decision support.
 Additionally, we chose this project because it is a multi-user platform that faces various security threats and challenges, making it a compelling subject for our analysis.
 
---------------
-**Team work**
---------------
+------------------------
+**Team work Reflection**
+------------------------
 After the team was formed, we initially faced challenges with communication. However, we resolved this by setting up a Discord server and creating a GitHub repository as required for the class. While one team member is still missing, we are moving forward with the project using the resources we have.
 
 Throughout the process, we held two meetings, during which we divided the project tasks relatively equally, leveraging each team member’s strengths.
