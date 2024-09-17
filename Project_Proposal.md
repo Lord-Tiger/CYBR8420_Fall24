@@ -37,7 +37,7 @@ On the repository page OpenEMR discloses the code of content under the [Creative
 -----------------
 **Contributions**
 -----------------
-Information on how to contribute to OpenEMR can be found at [CONTRIBUTING.md](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md). By creating a Docker Development Environment you can create your own fork of OpenEMR where you will be able to affect the open source code on your local machine. Advanced features of OpenEMR Development Docker Environment are:
+Information on how to contribute to OpenEMR can be found at [CONTRIBUTING.md](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md). By creating a Docker Development Environment you can create your own fork of OpenEMR where you will be able to affect the open source code on your local machine. Advanced features of OpenEMR Development Docker Environment are as follows:
 1.	[Xdebug and profiling](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#xdebug)
 2.	[API development and testing](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#api)
 3.	[Testing other PHP versions](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#other_php_versions)
@@ -66,7 +66,7 @@ Information on how to contribute to OpenEMR can be found at [CONTRIBUTING.md](ht
 ------------------------------
 **Perceived Security Threats**
 ------------------------------
-Users of OpenEMR, an open-source electronic medical records (EMR) and practice management system, typically face a range of threats typical for healthcare digital environments. These threats often relate to the sensitive nature of healthcare data and the operational context of healthcare delivery. Here are some of the key threats:
+Users of OpenEMR, an open-source electronic medical records (EMR) and medical practice management system, typically face a range of threats common for healthcare digital environments. These threats are often more prevalent due to the sensitive nature of healthcare data and the associated operations for healthcare. Here are some of the key threats:
 
 **Data Security & Privacy Threats:** From malware and ransomware attacks to insider threats and data loss due to breaches and disasters.
 
@@ -85,13 +85,13 @@ Users of OpenEMR, an open-source electronic medical records (EMR) and practice m
 -----------------------------
 **OpenEMR Security Features**
 -----------------------------
-OpenEMR is built with a variety of security features designed to protect patient data, ensure privacy, and comply with regulations like HIPAA (Health Insurance Portability and Accountability Act). Here are some of those features:
+OpenEMR is built with a variety of security features designed to protect patients' data, ensure privacy, and comply with various laws and regulations like HIPAA (Health Insurance Portability and Accountability Act). Here are some of those features:
 
 1\. User Authentication and Access Controls
 
 - Role-Based Access so that access is assigned based on roles, for example, patient, doctor, admin etc.
 - Authentication, a secure login mechanism using usernames and passwords.
-- Two-Factor/Multi-Factor Authentication, the application allows for the use of 2FA/MFA to be used in addition to conventional usernames and passwords, such as tokens and push notifications.
+- Multi-Factor Authentication, the application allows for the use of MFA to be used in addition to conventional usernames and passwords, such as tokens and push notifications.
 - User Lockouts that allows the system admin to configure it so accounts are locked out after a specific number of failed login attempts.
 - OAuth2 and JWT Authentication for API calls.
 
