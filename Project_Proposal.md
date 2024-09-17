@@ -28,6 +28,35 @@ Twig 1.1%
 
 Other 1.5%
 
+---------------------
+**License Agreement**
+---------------------
+OpenEMR is licensed by [GNU General Public License version 3 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.en.html). The GNU General Public License is a free, copyleft license for software where everyone is permitted to copy and distribute verbatim copies of the license document. The GNU General Public License is intended to guarantee your freedom to share and change all versions of a program to make sure it remains free software for all its users.
+On the repository page OpenEMR discloses the code of content under the [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/). 
+
+-----------------
+**Contributions**
+-----------------
+Information on how to contribute to OpenEMR can be found at [CONTRIBUTING.md](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md). By creating a Docker Development Environment you can create your own fork of OpenEMR where you will be able to affect the open source code on your local machine. Advanced features of OpenEMR Development Docker Environment are:
+1.	[Xdebug and profiling](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#xdebug)
+2.	[API development and testing](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#api)
+3.	[Testing other PHP versions](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#other_php_versions)
+4.	[Php syntax checking, psr12 checking, and automated testing](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#dev_tools_tests)
+5.	[Run the entire dev tool suite](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#dev_tools_suite)
+6.	[Run only all the automated tests](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#dev_tools_auto)
+7.	[Resetting OpenEMR and loading demo data](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#dev_tools_reset)
+8.	[Backup and restore OpenEMR data](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#dev_tools_backup)
+9.	[Send/receive snapshots](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#dev_tools_send)
+10.	[Create and add random patient data](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#dev_tools_randompatients)
+11.	[Add multisite bank](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#dev_tools_bankmultisite)
+12.	[Turn on and turn off support for multisite feature in setup.php](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#dev_tools_multisite)
+13.	[List the current multisite](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#dev_tools_listmultisite)
+14.	[Change the database character set and collation](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#dev_tools_charset)
+15.	[Test ssl certificate and force/unforce https](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#dev_tools_https)
+16.	[Place/remove testing sql ssl certificate and testing sql ssl client key/cert](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#dev_tools_ssl)
+17.	[CouchDB integration](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#dev_tools_couchdb)
+18.	[LDAP integration](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#dev_tools_ldap)
+19.	[Test webroot value](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md#dev_tools_webroot)
 
 -----------------------------------
 **System Engineering View Diagram**
