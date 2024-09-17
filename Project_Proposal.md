@@ -176,3 +176,5 @@ We plan to hold one final meeting to consolidate our work before the submission.
 <https://github.com/openemr/openemr?tab=readme-ov-file>
 
 <https://www.securityweek.com/vulnerabilities-in-openemr-healthcare-software-expose-patient-data/>
+
+<https://community.open-emr.org/c/security/17>
