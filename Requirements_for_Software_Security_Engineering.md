@@ -106,4 +106,7 @@ Yasir: Did case #1 including the diagram and the case's assesment, created a Git
 **Part 2 - OSS Project Documentation Review**
 ----------------------------------------------
 
+https://www.open-emr.org/wiki/index.php/Securing_OpenEMR
+https://www.open-emr.org/wiki/index.php/Security_Assessment
+
 There was a recent patch OpenEMR 7.02 that caused multiple issues. Some of these issues included are: dashboard unable to load for patients, a bug that allows scripts to run forever, and affecting the pdf creators for reports that could affect patient reports and slow down care. We would make sure to test updates on local machines prior to pushing the update out to the public. With this update the social security number of patients are visibly logged. This would violate many laws such as HIPPA and PII and would require immediate attention. I would update the permissions that allows only certain individuals with the rights to access these logs.
