@@ -83,9 +83,15 @@ This layered security approach illustrates how combining multiple preventive met
 
 
 -----------------
-**Team Reflection:**
+**Team Reflection**
 -----------------
 This assignment has been the most challenging we have undertaken in this class so far. Our initial difficulty was grasping the core problem we needed to address. We were overthinking when it came to the deliverables. In our first attempt at building a misuse case, we mistakenly used multiple actors, use and misuse cases in a single diagram, when a simpler approach would have been more appropriate. After consulting with our professor, we gained some direction; however, there was still some ambiguity for me personally (Abdoul). Despite this, we managed to develop three misuse cases and requested each team member to create a diagram and upload it to our GitHub repository for review and feedback from the rest of the group.
+
+**Individual Contributions:**
+
+Abdoul: Did case #3 including the diagram and the case's assesment, he did the team's reflection and made updates to the overall document.
+Brian: Did case #3 including the diagram and the case's assesment, contributed to the OSS project documentation section and explained to the team during a meeting the assignment and deliverables, helped with the document.
+Yasir: Did case #1 including the diagram and the case's assesment, created a GitHub projects page to track the overall project tasks and milestones over time. Created the assignment's md document, helped convert it to the proper format, contributed to the reflection and the OSS project documentation section as well as overall review and fixes to the document.
 
 ----------------------------------------------
 **Part 2 - OSS Project Documentation Review**
