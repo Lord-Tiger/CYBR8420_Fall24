@@ -48,7 +48,7 @@ This case is highly important because many of the cyber threats are focused on t
 ------------------------------
 **Use Case #3**
 ------------------------------
-
+![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/b0cfb6caa9eac17a59085e884ff55cab67be9a7d/Media/Untitled%20Diagram.jpg)
 
 -----------------
 **Part 2 - OSS**
