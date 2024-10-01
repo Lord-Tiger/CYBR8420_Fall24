@@ -50,6 +50,12 @@ This case is highly important because many of the cyber threats are focused on t
 ------------------------------
 ![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/b0cfb6caa9eac17a59085e884ff55cab67be9a7d/Media/Untitled%20Diagram.jpg)
 
+
+-----------------
+**Team Reflection:**
+-----------------
+This project was the most challenging we have undertaken. Our initial difficulty was grasping the core problem we needed to address. In our first attempt at building a misuse case, we mistakenly used three different actors for a single case, when a simpler approach involving just one actor—such as a basic login scenario—would have been more appropriate. After consulting with our professor, we gained some direction; however, there was still some ambiguity for me personally. Despite this, we managed to develop three misuse cases and requested each team member to create a diagram and upload it to our GitHub repository for review and feedback from the rest of the group.
+
 -----------------
 **Part 2 - OSS**
 -----------------
