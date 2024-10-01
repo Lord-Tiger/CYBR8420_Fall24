@@ -49,6 +49,7 @@ This case is highly important because many of the cyber threats are focused on t
 **Use Case #3**
 ------------------------------
 ![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/b0cfb6caa9eac17a59085e884ff55cab67be9a7d/Media/Untitled%20Diagram.jpg)
+
 **Actors:**
 -	Clinician (User)
 -	Rogue Clinician (Misuser)
@@ -59,10 +60,8 @@ This case is highly important because many of the cyber threats are focused on t
 **Misuse Case:**
 -	Fake Patient Record
 -	Prescription
-
-
+-	
 **Assessment:**
-Misuse Case: Rogue Clinician Creating Fake Patient Records for Controlled Substance Prescriptions
 In this misuse scenario, a rogue clinician attempts to exploit the OpenEMR system to create fake patient records and issue fraudulent prescriptions for controlled substances. The clinician’s goal is to use these false prescriptions to pick up the medication at a pharmacy, bypassing the system’s safeguards. However, several security measures are implemented to mitigate this risk:
 
 Multi-Factor Authentication (MFA) for Patient Identity Verification:
