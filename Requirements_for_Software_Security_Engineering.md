@@ -5,8 +5,6 @@
 **Use Case #1**
 ------------------------------
 
-![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/d4175490b8aeb6879d2d3da248f0d5f73c762f8d/Media/Admin_Use_%26_Misuse_Cases2.jpg)
-
 **Actors:**
 -	System Admin / Engineer (User)
 -	Wizard Spider (Misuser)
@@ -19,6 +17,10 @@
 -	Hide Tracks / Using VPN / Tor
 -	IP Spoofing
 
+**Diagram:**
+
+![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/d4175490b8aeb6879d2d3da248f0d5f73c762f8d/Media/Admin_Use_%26_Misuse_Cases2.jpg)
+
 **Assessment:**
 
 In this use case where the Admin/Engineer manages the system, he uses the admin dashboard/page to make system changes. The bad actor, in this case, Wizard Spider, a cybercriminal organization, tries to exploit the system’s vulnerabilities through code execution and trying to gain elevated privileges. Regular audits, system updates, logging and monitoring are in place to prevent this misuse of the system.
@@ -27,7 +29,6 @@ The attacker then tries to hide their tracks to circumvent these measures, using
 ------------------------------
 **Use Case #2**
 ------------------------------
-![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/20512fe81c29bfc15c40ed0c0b58a4d9c77ff405/Media/Doctor.jpg)
 
 **Actors:**
 -	Doctor (User)
@@ -41,6 +42,10 @@ The attacker then tries to hide their tracks to circumvent these measures, using
 -	Virus Implementation
 -	Man in the Middle Listening
 
+**Diagram:**
+
+![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/20512fe81c29bfc15c40ed0c0b58a4d9c77ff405/Media/Doctor.jpg)
+
 **Assessment:**
 
 This case is highly important because many of the cyber threats are focused on the users. Patient care requires communication across the entire hospital campus.  The first thing is to update policies and educate the doctors on phishing emails. They are the first wall of defense and must be aware of these scams. This is not a perfect solution since users will eventually click on a phishing email therefore IT must make sure that all patches and updates are applied to the firewall and Firewall and Intrusion Detection Systems to detect and prevent any viruses. To further prevent man in the middle (MITM) or eavesdropping it is apparent to make sure that all communication is encrypted to further prevent the access to sensitive information.  
@@ -48,7 +53,6 @@ This case is highly important because many of the cyber threats are focused on t
 ------------------------------
 **Use Case #3**
 ------------------------------
-![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/b0cfb6caa9eac17a59085e884ff55cab67be9a7d/Media/Untitled%20Diagram.jpg)
 
 **Actors:**
 -	Clinician (User)
@@ -60,6 +64,10 @@ This case is highly important because many of the cyber threats are focused on t
 **Misuse Case:**
 -	Fake Patient Records
 -	Prescriptions
+
+**Diagram:**
+
+![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/b0cfb6caa9eac17a59085e884ff55cab67be9a7d/Media/Untitled%20Diagram.jpg)
 
 **Assessment:**
 In this misuse scenario, a rogue clinician attempts to exploit the OpenEMR system to create fake patient records and issue fraudulent prescriptions for controlled substances. The clinician’s goal is to use these false prescriptions to pick up the medication at a pharmacy, bypassing the system’s safeguards. However, several security measures are implemented to mitigate this risk:
