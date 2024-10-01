@@ -85,10 +85,10 @@ This layered security approach illustrates how combining multiple preventive met
 -----------------
 **Team Reflection:**
 -----------------
-This project was the most challenging we have undertaken. Our initial difficulty was grasping the core problem we needed to address. In our first attempt at building a misuse case, we mistakenly used three different actors for a single case, when a simpler approach involving just one actor—such as a basic login scenario—would have been more appropriate. After consulting with our professor, we gained some direction; however, there was still some ambiguity for me personally. Despite this, we managed to develop three misuse cases and requested each team member to create a diagram and upload it to our GitHub repository for review and feedback from the rest of the group.
+This assignment has been the most challenging we have undertaken in this class so far. Our initial difficulty was grasping the core problem we needed to address. We were overthinking when it came to the deliverables. In our first attempt at building a misuse case, we mistakenly used multiple actors, use and misuse cases in a single diagram, when a simpler approach would have been more appropriate. After consulting with our professor, we gained some direction; however, there was still some ambiguity for me personally (Abdoul). Despite this, we managed to develop three misuse cases and requested each team member to create a diagram and upload it to our GitHub repository for review and feedback from the rest of the group.
 
------------------
-**Part 2 - OSS**
------------------
+----------------------------------------------
+**Part 2 - OSS Project Documentation Review**
+----------------------------------------------
 
 There was a recent patch OpenEMR 7.02 that caused multiple issues. Some of these issues included are: dashboard unable to load for patients, a bug that allows scripts to run forever, and affecting the pdf creators for reports that could affect patient reports and slow down care. We would make sure to test updates on local machines prior to pushing the update out to the public. With this update the social security number of patients are visibly logged. This would violate many laws such as HIPPA and PII and would require immediate attention. I would update the permissions that allows only certain individuals with the rights to access these logs.
