@@ -1,4 +1,7 @@
 ------------------------------
+**Part 1 - Use & Misuse Cases**
+------------------------------ 
+------------------------------
 **Use Case #1**
 ------------------------------
 
@@ -47,3 +50,8 @@ This case is highly important because many of the cyber threats are focused on t
 ------------------------------
 
 
+-----------------
+**Part 2 - OSS**
+-----------------
+
+There was a recent patch OpenEMR 7.02 that caused multiple issues. Some of these issues included are: dashboard unable to load for patients, a bug that allows scripts to run forever, and affecting the pdf creators for reports that could affect patient reports and slow down care. We would make sure to test updates on local machines prior to pushing the update out to the public. With this update the social security number of patients are visibly logged. This would violate many laws such as HIPPA and PII and would require immediate attention. I would update the permissions that allows only certain individuals with the rights to access these logs.
