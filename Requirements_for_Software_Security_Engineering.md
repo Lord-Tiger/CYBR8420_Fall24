@@ -70,6 +70,7 @@ This case is highly important because many of the cyber threats are focused on t
 ![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/b0cfb6caa9eac17a59085e884ff55cab67be9a7d/Media/Untitled%20Diagram.jpg)
 
 **Assessment:**
+
 In this misuse scenario, a rogue clinician attempts to exploit the OpenEMR system to create fake patient records and issue fraudulent prescriptions for controlled substances. The clinician’s goal is to use these false prescriptions to pick up the medication at a pharmacy, bypassing the system’s safeguards. However, several security measures are implemented to mitigate this risk:
 
 Multi-Factor Authentication (MFA) for Patient Identity Verification:
@@ -85,9 +86,7 @@ Secure Configuration and Hardening:
 
 Secure configuration and hardening practices are applied across the OpenEMR system to ensure that all security settings are correctly implemented and maintained. This includes limiting access to sensitive configuration files, disabling unused functionalities, and applying security patches regularly. These measures reduce the attack surface and help prevent exploitation of system vulnerabilities.
 Outcome and Mitigation
-Although the rogue clinician attempts to circumvent the MFA control using a rogue device, the RBAC policy effectively prevents the misuse by ensuring that record creation and approval are separated. Additionally, the DLP and secure system configurations provide further barriers, ensuring that even if a fake patient record is created, it is flagged before any fraudulent prescriptions can be issued and picked up.
-
-This layered security approach illustrates how combining multiple preventive methods can mitigate insider threats and reduce the likelihood of successful misuse.
+Although the rogue clinician attempts to circumvent the MFA control using a rogue device, the RBAC policy effectively prevents the misuse by ensuring that record creation and approval are separated. Additionally, the DLP and secure system configurations provide further barriers, ensuring that even if a fake patient record is created, it is flagged before any fraudulent prescriptions can be issued and picked up. This layered security approach illustrates how combining multiple preventive methods can mitigate insider threats and reduce the likelihood of successful misuse.
 
 
 -----------------
