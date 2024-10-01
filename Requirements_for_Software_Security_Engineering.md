@@ -24,3 +24,4 @@ The attacker then tries to hide their tracks to circumvent these measures, using
 ------------------------------
 **Use Case #2**
 ------------------------------
+![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/20512fe81c29bfc15c40ed0c0b58a4d9c77ff405/Media/Doctor.jpg)
