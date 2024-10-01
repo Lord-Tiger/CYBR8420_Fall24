@@ -49,6 +49,38 @@ This case is highly important because many of the cyber threats are focused on t
 **Use Case #3**
 ------------------------------
 ![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/b0cfb6caa9eac17a59085e884ff55cab67be9a7d/Media/Untitled%20Diagram.jpg)
+**Actors:**
+-	Clinician (User)
+-	Rogue Clinician (Misuser)
+
+**Use Case:**
+-	Patient Record Creation
+
+**Misuse Case:**
+-	Fake Patient Record
+-	Prescription
+
+
+**Assessment:**
+Misuse Case: Rogue Clinician Creating Fake Patient Records for Controlled Substance Prescriptions
+In this misuse scenario, a rogue clinician attempts to exploit the OpenEMR system to create fake patient records and issue fraudulent prescriptions for controlled substances. The clinician’s goal is to use these false prescriptions to pick up the medication at a pharmacy, bypassing the system’s safeguards. However, several security measures are implemented to mitigate this risk:
+
+Multi-Factor Authentication (MFA) for Patient Identity Verification:
+
+The system enforces MFA during the creation of new patient records, requiring a secondary verification step to validate the patient's identity. This adds an additional layer of security, making it harder for the clinician to add unauthorized patients. However, the rogue clinician circumvents this control by using a compromised or unauthorized device to bypass the MFA check.
+Role-Based Access Control (RBAC):
+
+The RBAC configuration restricts clinicians from both creating and approving patient records, separating these duties to minimize misuse. The rogue clinician is unable to complete both tasks because the RBAC policies enforce strict access controls, ensuring that the same clinician cannot act as both the creator and the verifier of new patients.
+Data Loss Prevention (DLP):
+
+A DLP system is in place to monitor for suspicious activities, such as unusual patterns in patient record creation. If a clinician tries to create multiple new patient profiles rapidly or if records exhibit characteristics typical of fraudulent entries (e.g., incomplete information or irregular demographics), the DLP triggers alerts for further investigation. This control helps detect and flag fake patient records before they can be used to generate prescriptions.
+Secure Configuration and Hardening:
+
+Secure configuration and hardening practices are applied across the OpenEMR system to ensure that all security settings are correctly implemented and maintained. This includes limiting access to sensitive configuration files, disabling unused functionalities, and applying security patches regularly. These measures reduce the attack surface and help prevent exploitation of system vulnerabilities.
+Outcome and Mitigation
+Although the rogue clinician attempts to circumvent the MFA control using a rogue device, the RBAC policy effectively prevents the misuse by ensuring that record creation and approval are separated. Additionally, the DLP and secure system configurations provide further barriers, ensuring that even if a fake patient record is created, it is flagged before any fraudulent prescriptions can be issued and picked up.
+
+This layered security approach illustrates how combining multiple preventive methods can mitigate insider threats and reduce the likelihood of successful misuse.
 
 
 -----------------
