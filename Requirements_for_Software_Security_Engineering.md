@@ -1,6 +1,9 @@
 ------------------------------
 **Use Case #1**
 ------------------------------
+
+https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/d4175490b8aeb6879d2d3da248f0d5f73c762f8d/Media/Admin_Use_%26_Misuse_Cases2.jpg
+
 **Actors:**
 -	System Admin / Engineer (User)
 -	Wizard Spider (Misuser)
