@@ -111,4 +111,17 @@ OpenEMR has dedicated pages on how to secure the software, hardening it and a HI
 - [Securing OpenEMR](https://www.open-emr.org/wiki/index.php/Securing_OpenEMR)
 - [Security Assesment](https://www.open-emr.org/wiki/index.php/Security_Assessment)
 
-There was a recent patch OpenEMR 7.02 that caused multiple issues. Some of these issues included are: dashboard unable to load for patients, a bug that allows scripts to run forever, and affecting the pdf creators for reports that could affect patient reports and slow down care. We would make sure to test updates on local machines prior to pushing the update out to the public. With this update the social security number of patients are visibly logged. This would violate many laws such as HIPPA and PII and would require immediate attention. I would update the permissions that allows only certain individuals with the rights to access these logs.
+These guide provides essential steps and best practices for securing an OpenEMR installation to protect sensitive patient medical and billing data in order to comply with government regulations such as HIPAA. Key areas covered by these guides include the following:
+
+- Web Server Security
+- Database Security
+- File Permissions and Ownership
+- User Authentication
+- Network Security
+- Regular Updates and Patches
+- Backup Strategy
+- HIPPA Compliance
+
+Our finding is that there need to be more technical details to make the recommendations more actionable, for example, including common troubleshooting tips for issues that may arise while securing OpenEMR. The network part, which is critical, only features basic guidance. It would be good to offer guidelines for setting up a Web Application Firewall (WAF) for instance, or specific software tools that integrate with OpenEMR for monitoring and application threat prevention. OpenEMR is PHP and web-based for a lot of its functions, being publicly available for patients and the public, application-specific protection setup is an important piece.
+
+On another note concerning security issues, there was a recent patch OpenEMR 7.02 that caused multiple issues. Some of these issues included are: dashboard unable to load for patients, a bug that allows scripts to run forever, and affecting the pdf creators for reports that could affect patient reports and slow down care. We would make sure to test updates on local machines prior to pushing the update out to the public. With this update the social security number of patients are visibly logged. This would violate many laws such as HIPPA and PII and would require immediate attention. I would update the permissions that allows only certain individuals with the rights to access these logs.
