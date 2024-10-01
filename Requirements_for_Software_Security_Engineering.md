@@ -60,7 +60,7 @@ This case is highly important because many of the cyber threats are focused on t
 **Misuse Case:**
 -	Fake Patient Record
 -	Prescription
--	
+
 **Assessment:**
 In this misuse scenario, a rogue clinician attempts to exploit the OpenEMR system to create fake patient records and issue fraudulent prescriptions for controlled substances. The clinician’s goal is to use these false prescriptions to pick up the medication at a pharmacy, bypassing the system’s safeguards. However, several security measures are implemented to mitigate this risk:
 
