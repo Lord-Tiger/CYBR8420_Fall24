@@ -90,7 +90,9 @@ This assignment has been the most challenging we have undertaken in this class s
 **Individual Contributions:**
 
 Abdoul: Did case #3 including the diagram and the case's assesment, he did the team's reflection and made updates to the overall document.
+
 Brian: Did case #3 including the diagram and the case's assesment, contributed to the OSS project documentation section and explained to the team during a meeting the assignment and deliverables, helped with the document.
+
 Yasir: Did case #1 including the diagram and the case's assesment, created a GitHub projects page to track the overall project tasks and milestones over time. Created the assignment's md document, helped convert it to the proper format, contributed to the reflection and the OSS project documentation section as well as overall review and fixes to the document.
 
 ----------------------------------------------
