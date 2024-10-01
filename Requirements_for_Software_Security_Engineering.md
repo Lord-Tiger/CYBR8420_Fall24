@@ -25,3 +25,19 @@ The attacker then tries to hide their tracks to circumvent these measures, using
 **Use Case #2**
 ------------------------------
 ![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/20512fe81c29bfc15c40ed0c0b58a4d9c77ff405/Media/Doctor.jpg)
+
+**Actors:**
+-	Doctor (User)
+-	Scott (Misuser)
+
+**Use Case:**
+-	Doctor Communication/Emails
+
+**Misuse Case:**
+-	Phishing Email
+-	Virus Implementation
+-	Man in the Middle Listening
+
+**Assessment:**
+
+This case is highly important because many of the cyber threats are focused on the users. Patient care requires communication across the entire hospital campus.  The first thing is to update policies and educate the nurse on phishing emails. They are the first wall of defense and must be aware of these scams. This is not a perfect solution since users will eventually click on a phishing email therefore IT must make sure that all patches and updates are applied to the firewall and Firewall and Intrusion Detection Systems to detect and prevent any viruses. To further prevent man in the middle (MITM) or eavesdropping it is apparent to make sure that all communication is encrypted to further prevent the access to sensitive information.  
