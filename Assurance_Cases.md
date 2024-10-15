@@ -36,6 +36,12 @@ The first rebuttal (R1) to the prevention of unauthorized access is if the login
 
 The second main rebuttal to unauthorized access is Password is susceptible to brute force attacks (R2). This is something that cyber professionals need to be aware of. By implementing strong password policies (C4) we can minimize the threat. Dictionary attacks for the password (R5) could then bypass the strong password policies. By limiting the number of log in attempts (C7) this can limit the threat. This is supported by CAPTCHA (E4) for verification and security questions for Identity Authentication (E5). 
 
+------------------------------------
+**Assurance Case #3 -**
+------------------------------------
+**Assesment:**
+
+
 ------------------------------
 **Part 2:**
 ------------------------------
