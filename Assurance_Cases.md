@@ -76,7 +76,7 @@ This time we also made sure that our issues in GitHub are closed and project mil
 -------------------------------------
 **Team Individual Contributions:**
 -------------------------------------
-
+**Yasir:** Did assurance case #1 including the diagram and the case's assessment, updated the GitHub projects page and closed all open issues. Created the assignment's md document, helped convert it to the proper format, contributed to the reflections and references sections as well as part #2 of the assignment (Alignments) that are relevant to case #1 such AES-256 encryption, configuration auditing, software logs and external Audits and periodic vulnerability scans pieces.
 
 -------------------------------------------------------
 **Reference Links:**
