@@ -18,7 +18,7 @@ Sub-claim C6 counters that by stating that the reports in question are certified
 For Inference Rule (IR1), if the software implements adequate security and privacy controls, then it minimizes the disclosure of patient data, this statement is undercut (UC1) with the possibility of the software not being updated/supported any longer, this statement is then countered with the claim that the OpenEMR software is an open-source software with an active community of developers and has been developed and maintained for over 20 years.
 
 ------------------------------------
-**Assurance Case #2 - OpenEMR's Billing & Insurance Modules Minimize Unauthorized Access **
+**Assurance Case #2 - OpenEMR's Billing & Insurance Modules Minimize Unauthorized Access**
 ------------------------------------
 
 **Assesment:** 
