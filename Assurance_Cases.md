@@ -25,4 +25,7 @@ For Inference Rule (IR1), if the software implements adequate security and priva
 **Assurance Case #2 - OpenEMR's Billing & Insurance Modules Minimize Unauthorized Access**
 ------------------------------------
 
+
+![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/main/Media/Assurance%20Case-password.jpg)
+
 **Assesment:** 
