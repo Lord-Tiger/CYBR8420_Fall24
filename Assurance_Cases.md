@@ -159,4 +159,5 @@ This time we also made sure that our issues in GitHub are closed and project mil
 <https://www.open-emr.org/chat/>
 
 <https://www.open-emr.org/wiki/index.php/1._Password_policy_enhancements#:~:text=If%20the%20entered%20password%20is,not%20a%20letter%20or%20number).>
-https://github.com/openemr/openemr/blob/master/src/Common/Session/SessionTracker.php 
+
+<https://github.com/openemr/openemr/blob/master/src/Common/Session/SessionTracker.php>
