@@ -1,7 +1,9 @@
 ------------------------------
-**Assurance Case #1**
+**Assurance Case #1 - OpenEMR Minimizes Disclosure of Patient Data**
 ------------------------------
-**OpenEMR minimizes disclosure of Patient Data:** Affecting OpenEMR’s code itself, if no patch is released in a timely manner and/or if said vulnerabilities remain unpatched by the medical clinic. This threat can also come from third-party plugins or modules integrated with OpenEMR.
+**Assesment:** 
+
+Affecting OpenEMR’s code itself, if no patch is released in a timely manner and/or if said vulnerabilities remain unpatched by the medical clinic. This threat can also come from third-party plugins or modules integrated with OpenEMR.
 In this assurance, the first claim, also the top claim, is that OpenEMR minimizes the disclosure of patients’ medical and billing data. For context, OpenEMR is an open-source software that is used in a healthcare environment to manage healthcare records.
 The first rebuttal (R1) tries to argue against the top claim by bringing up the possibility of communications/traffic interception.
 Sub-Claim (C2) states that OpenEMR encrypts data during transmission and at rest in storage (when configured correctly).
