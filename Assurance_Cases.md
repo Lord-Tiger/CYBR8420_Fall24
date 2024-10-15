@@ -99,6 +99,8 @@ This time we also made sure that our issues in GitHub are closed and project mil
 
 **Brian:** Did assurance case #2 including the diagram and the case's asessment, contributed to the reference and part #2 of the assignemnt (MFA, Free online forum and chat, Policies and Procedures). Assisted witht the completeion of the assurance cases  and review of the document.
 
+**Abdoul:** For this project, I developed the top-level claim: "OpenEMR ensures that only authorized users can access the system and perform actions based on their roles." I also contributed to the team's reflection process, assisted in reviewing the other cases, and actively participated in brainstorming the assurance cases we needed to focus on for this task.
+
 -------------------------------------
 **Link to project board:**
 -------------------------------------
