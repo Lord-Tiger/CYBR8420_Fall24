@@ -44,7 +44,7 @@ The second main rebuttal to unauthorized access is Password is susceptible to br
 
 **Diagram:**
 
-![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/main/Media/Assurance case (1).jpg)
+![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/9c6b16b96e2743ae27c2a1798a1d146844a8a3ee/Media/Assurance%20case%20(1).jpg)
 
 **Assesment:**
 
