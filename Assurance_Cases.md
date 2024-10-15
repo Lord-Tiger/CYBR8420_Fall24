@@ -76,3 +76,21 @@ This time we also made sure that our issues in GitHub are closed and project mil
 -------------------------------------
 **Team Individual Contributions:**
 -------------------------------------
+
+
+-------------------------------------------------------
+**Reference Links:**
+-------------------------------------------------------
+<https://github.com/openemr/openemr>
+
+<https://www.open-emr.org/wiki/index.php/Security_Assessment>
+
+<https://www.open-emr.org/wiki/index.php/Securing_OpenEMR>
+
+<https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md>
+
+<https://github.com/openemr/openemr?tab=readme-ov-file>
+
+<https://www.securityweek.com/vulnerabilities-in-openemr-healthcare-software-expose-patient-data/>
+
+<https://community.open-emr.org/c/security/17>
