@@ -109,6 +109,13 @@ There are forums that have previous questions that have been discussed along wit
 
 There is an instruction manual on how to complete the Multi-factor Authentication. This is not a automatically built into the user access, but an option that a user can set up. It is a step by step guide on how to set MFA up and where to receive the authentication.
 
+**Session Timeout Configuration:**
+
+OpenEMR allows administrators to configure session timeout settings, specifying how long a session can remain idle before the user is automatically logged out. This setting is customizable based on the organization’s security requirements.
+
+**Automatic Logout and Notifications:**
+
+When a session is about to expire due to inactivity, OpenEMR may provide notifications to the user warning them that their session is about to end, giving them a chance to stay logged in. If the user does not respond, the system automatically logs them out to prevent unauthorized access
 
 --------------------------
 **Team Reflections:**
