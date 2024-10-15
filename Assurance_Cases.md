@@ -67,9 +67,13 @@ Sub-Claim C3: Provides an argument for MFA, with an effective rebuttal acknowled
 Sub-Claim C4: Addresses the potential risks around RBAC misconfiguration or insufficient oversight.
 
 Evidence Support
+
 Evidence 1: Configuration logs and settings for session expiration events to back up the sub-claim on RBAC.
+
 Evidence 2: Descriptions and logs showing MFA implementations, adding credibility to the security claims around authentication.
+
 Evidence 3: Audit definitions and records verifying that RBAC is correctly implemented and actively managed.
+
 Each evidence node is specific and provides clear, actionable proof to support the claims.
 
 ------------------------------
