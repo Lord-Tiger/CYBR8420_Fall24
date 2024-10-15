@@ -71,6 +71,8 @@ For this project, we held a meeting on Discord last Wednesday to brainstorm vari
 
 During the call with the professor, we received valuable feedback and began refining our project accordingly. Our first assurance case focuses on the confidentiality of patient data, the second ensures that users have access to the software based on their designated roles, and the third addresses preventing unauthorized access to billing and insurance information.
 
+This time we also made sure that our issues in GitHub are closed and project milestones are up to date with the project events.
+
 -------------------------------------
 **Team Individual Contributions:**
 -------------------------------------
