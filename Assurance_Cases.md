@@ -1,6 +1,9 @@
 ------------------------------
 **Assurance Case #1 - OpenEMR Minimizes Disclosure of Patient Data**
 ------------------------------
+
+
+
 **Assesment:** 
 
 Affecting OpenEMR’s code itself, if no patch is released in a timely manner and/or if said vulnerabilities remain unpatched by the medical clinic. This threat can also come from third-party plugins or modules integrated with OpenEMR.
