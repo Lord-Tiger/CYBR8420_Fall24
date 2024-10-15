@@ -45,7 +45,7 @@ The second main rebuttal to unauthorized access is Password is susceptible to br
 ------------------------------
 **Part 2:**
 ------------------------------
-**2.1:** Assurance case #1 presents a few pieces of evidence, some of which are available within the software itself, others can be added or be applied using integrations with other software or hardware components.
+The Assurance cases here present a few pieces of evidence, some of which are available within the software itself, others can be added or be applied using integrations with other software or hardware components, as discussed below.
 
 **AES-256 Encryption:**
 
