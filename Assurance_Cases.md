@@ -106,3 +106,7 @@ This time we also made sure that our issues in GitHub are closed and project mil
 <https://www.securityweek.com/vulnerabilities-in-openemr-healthcare-software-expose-patient-data/>
 
 <https://community.open-emr.org/c/security/17>
+
+<https://www.open-emr.org/chat/>
+
+<https://www.open-emr.org/wiki/index.php/1._Password_policy_enhancements#:~:text=If%20the%20entered%20password%20is,not%20a%20letter%20or%20number).>
