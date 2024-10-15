@@ -1,5 +1,5 @@
 ------------------------------
-**Part 1:**
+**Part 1: Assurance Cases & Assesments**
 ------------------------------
 ------------------------------
 **Assurance Case #1 - OpenEMR Minimizes Disclosure of Patient Data**
@@ -43,7 +43,7 @@ The second main rebuttal to unauthorized access is Password is susceptible to br
 
 
 ------------------------------
-**Part 2:**
+**Part 2: Alignments With the Actual OSS Project**
 ------------------------------
 The Assurance cases here present a few pieces of evidence, some of which are available within the software itself, others can be added or be applied using integrations with other software or hardware components, as discussed below.
 
