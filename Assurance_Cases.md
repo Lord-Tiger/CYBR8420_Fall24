@@ -113,7 +113,7 @@ There is an instruction manual on how to complete the Multi-factor Authenticatio
 --------------------------
 **Team Reflections:**
 --------------------------
-For this project, we held a meeting on Discord last Wednesday to brainstorm various assurance cases. During the session, each of us used AI tools to help identify potential approaches, and we generated about six different options. After reviewing them, we each selected one to develop further in preparation for our meeting with the professor on Thursday.
+For this project, we held a meeting on Discord last Wednesday to brainstorm various assurance cases. During the session, each of us identified and suggested potential approaches, and we came up with different options. After discussing them, we each selected one to develop further in preparation for our meeting with the professor on Thursday.
 
 During the call with the professor, we received valuable feedback and began refining our project accordingly. Our first assurance case focuses on the confidentiality of patient data, the second ensures that users have access to the software based on their designated roles, and the third addresses preventing unauthorized access to billing and insurance information.
 
