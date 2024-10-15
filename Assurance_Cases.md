@@ -99,6 +99,10 @@ This time we also made sure that our issues in GitHub are closed and project mil
 
 **Brian:** Did assurance case #2 including the diagram and the case's asessment, contributed to the reference and part #2 of the assignemnt (MFA, Free online forum and chat, Policies and Procedures). Assisted witht the completeion of the assurance cases  and review of the document.
 
+-------------------------------------
+**Link to project board:**
+-------------------------------------
+<https://github.com/users/Lord-Tiger/projects/3>
 -------------------------------------------------------
 **Reference Links:**
 -------------------------------------------------------
