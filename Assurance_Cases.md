@@ -129,7 +129,7 @@ This time we also made sure that our issues in GitHub are closed and project mil
 **Abdoul:** For this project, I developed the top-level claim: "OpenEMR ensures that only authorized users can access the system and perform actions based on their roles." I also contributed to the team's reflection process, assisted in reviewing the other cases, and actively participated in brainstorming the assurance cases we needed to focus on for this task.
 
 -------------------------------------
-**Link to project board:**
+**Link to the team's project board:**
 -------------------------------------
 <https://github.com/users/Lord-Tiger/projects/3>
 -------------------------------------------------------
