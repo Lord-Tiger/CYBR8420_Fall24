@@ -36,3 +36,25 @@ The first rebuttal (R1) to the prevention of unauthorized access is if the login
 
 The second main rebuttal to unauthorized access is Password is susceptible to brute force attacks (R2). This is something that cyber professionals need to be aware of. By implementing strong password policies (C4) we can minimize the threat. Dictionary attacks for the password (R5) could then bypass the strong password policies. By limiting the number of log in attempts (C7) this can limit the threat. This is supported by CAPTCHA (E4) for verification and security questions for Identity Authentication (E5). 
 
+------------------------------
+**Part 2:**
+------------------------------
+**2.1:** Assurance case #1 presents a few pieces of evidence, some of which are available within the software itself, others can be added or be applied using integrations with other software or hardware components.
+
+**AES-256 Encryption:**
+
+OpenEMR supports encryption for data in transit and data at rest, it uses strong encryption standards, such as AES-256 for that purpose, securing sensitive data like patient information as it’s stored and when retrieved. OpenEMR also uses SSL/TLS for its communications. You can enable these encryption settings through the administration settings (Administration -> Globals).
+
+**Configuration Auditing:**
+
+OpenEMR features robust auditing features that can track configuration changes. This functionality includes logging events for things like patient record creation, updates as well as deletions, along with other administrative tasks like account lockouts and security configuration changes.
+
+**Software Logs:**
+
+The OSS project provides extensive logging capabilities including the ability to capture different types of events such as database queries, system changes, and logins and logouts. The logs are also important for compliance.
+
+**External Audits & Periodic Vulnerability Scans:**
+
+The part would be handled by various tools and software that is not necessarily related or integrated into OpenEMR, for instance, if Qualys, a third-party security software might be used by an independent cyber security firm to pen test the software itself and the infrastructure it’s built on, by checking for open ports or the validity of the certificate and encryption used on the public webpages. These reports are generated automatically by the solution and obtained by the engineer. Those conducted by the external firms are also verified and then handed to the responsible engineer.
+
+
