@@ -126,6 +126,8 @@ During the call with the professor, we received valuable feedback and began refi
 
 This time we also made sure that our issues in GitHub are closed and project milestones are up to date with the project events.
 
+On Sunday we met over Discord to decide our direction for the assignment and to peer review our drafts, we convened for another call for a few hours as a team on Monday, we collabrated and put all of our works together for the final submission of the assignment. It's understandable that we all have jobs and families outside class, but we still have to improve on our communications and have more collabration sessions over Disord for upcoming team assignments.
+
 -------------------------------------
 **Team Individual Contributions:**
 -------------------------------------
