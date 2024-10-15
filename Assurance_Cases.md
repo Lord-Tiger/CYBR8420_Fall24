@@ -63,6 +63,18 @@ The OSS project provides extensive logging capabilities including the ability to
 
 The part would be handled by various tools and software that is not necessarily related or integrated into OpenEMR, for instance, if Qualys, a third-party security software might be used by an independent cyber security firm to pen test the software itself and the infrastructure it’s built on, by checking for open ports or the validity of the certificate and encryption used on the public webpages. These reports are generated automatically by the solution and obtained by the engineer. Those conducted by the external firms are also verified and then handed to the responsible engineer.
 
+**Policies and reports:**
+
+OpenEMR site has the policies and procedures posted. The Password Policy Enhancements policy includes strong passwords implementation and password change every 3 months. There are plicies that lay out the existence of CAPTCHA for human authentication and the number of log in attempts that are allowed to access an account. 
+
+**Free online forum and chat:**
+
+There are forums that have previous questions that have been discussed along with the ability to post questions to help with your issues. There are multiple support chats that allow you to speak to OpenEMR employee to assist with any issues you may have.
+
+**Multi-Factor Authentication:**
+
+There is an instruction manual on how to complete the Multi-factor Authentication. This is not a automatically built into the user access, but an option that a user can set up. It is a step by step guide on how to set MFA up and where to receive the authentication.
+
 
 --------------------------
 **Team Reflections:**
