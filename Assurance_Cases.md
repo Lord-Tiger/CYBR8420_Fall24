@@ -7,7 +7,7 @@
 
 **Diagram:**
 
-![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/main/Media/Assurance_Case1_Minimizes_Data_Disclosure.jpg)
+![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/60d576355c1975abef388a08915b9a51d3761a69/Media/Assurance_Case1_Minimizes_Data_Disclosure.jpg)
 
 **Assesment:** 
 
