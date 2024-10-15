@@ -5,6 +5,7 @@
 **Assurance Case #1 - OpenEMR Minimizes Disclosure of Patient Data**
 ------------------------------
 
+**Diagram:**
 
 ![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/main/Media/Assurance_Case1_Minimizes_Data_Disclosure.jpg)
 
@@ -25,6 +26,7 @@ For Inference Rule (IR1), if the software implements adequate security and priva
 **Assurance Case #2 - OpenEMR's Billing & Insurance Modules Minimize Unauthorized Access**
 ------------------------------------
 
+**Diagram:**
 
 ![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/main/Media/Assurance%20Case-password.jpg)
 
@@ -39,6 +41,11 @@ The second main rebuttal to unauthorized access is Password is susceptible to br
 ------------------------------------
 **Assurance Case #3 -**
 ------------------------------------
+
+**Diagram:**
+
+![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/main/Media/Assurance case (1).jpg)
+
 **Assesment:**
 
 
