@@ -47,7 +47,30 @@ The second main rebuttal to unauthorized access is Password is susceptible to br
 ![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/9c6b16b96e2743ae27c2a1798a1d146844a8a3ee/Media/Assurance%20case%20(1).jpg)
 
 **Assesment:**
+Top-Level Claim
 
+Claim: "OpenEMR ensures that only authorized users can access the system, and patient actions are based on their roles."
+This is a high-level, comprehensive claim that sets the foundation for security. It focuses on ensuring proper access control and role-based permissions, which are critical for protecting sensitive medical data.
+
+Supporting Argument Structure
+Sub-claims are supporting the main top-level claim with specific security mechanisms (such as RBAC, multi-factor authentication (MFA), and session control).
+
+Rebuttals: The diagram incorporates counterarguments such as "RBAC may not be well-defined" or "MFA can be bypassed" to enhance credibility by acknowledging potential weaknesses.
+Sub-Claim for Audits: An essential element of this diagram is the emphasis on auditing and oversight. This indicates a dynamic and monitored system, which helps to assure stakeholders that even if RBAC or MFA is bypassed, there are safety nets in place.
+
+Sub-Claims and Rebuttals
+
+Sub-Claim C1: Discusses unauthorized access to patient records, with a rebuttal addressing the flexibility of RBAC. It shows that while RBAC limits access, potential misconfigurations need constant oversight.
+
+Sub-Claim C3: Provides an argument for MFA, with an effective rebuttal acknowledging that session management could be a vulnerability, and that even MFA can be bypassed if not implemented securely.
+
+Sub-Claim C4: Addresses the potential risks around RBAC misconfiguration or insufficient oversight.
+
+Evidence Support
+Evidence 1: Configuration logs and settings for session expiration events to back up the sub-claim on RBAC.
+Evidence 2: Descriptions and logs showing MFA implementations, adding credibility to the security claims around authentication.
+Evidence 3: Audit definitions and records verifying that RBAC is correctly implemented and actively managed.
+Each evidence node is specific and provides clear, actionable proof to support the claims.
 
 ------------------------------
 **Part 2: Alignments With the Actual OSS Project**
