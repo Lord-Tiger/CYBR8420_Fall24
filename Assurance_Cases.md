@@ -64,3 +64,11 @@ The OSS project provides extensive logging capabilities including the ability to
 The part would be handled by various tools and software that is not necessarily related or integrated into OpenEMR, for instance, if Qualys, a third-party security software might be used by an independent cyber security firm to pen test the software itself and the infrastructure it’s built on, by checking for open ports or the validity of the certificate and encryption used on the public webpages. These reports are generated automatically by the solution and obtained by the engineer. Those conducted by the external firms are also verified and then handed to the responsible engineer.
 
 
+
+**Team Reflections:**
+
+For this project, we held a meeting on Discord last Wednesday to brainstorm various assurance cases. During the session, each of us used AI tools to help identify potential approaches, and we generated about six different options. After reviewing them, we each selected one to develop further in preparation for our meeting with the professor on Thursday.
+
+During the call with the professor, we received valuable feedback and began refining our project accordingly. Our first assurance case focuses on the confidentiality of patient data, the second ensures that users have access to the software based on their designated roles, and the third addresses preventing unauthorized access to billing and insurance information.
+
+**Team Individual Contributions:**
