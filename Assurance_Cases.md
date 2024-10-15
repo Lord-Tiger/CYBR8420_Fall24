@@ -2,7 +2,7 @@
 **Assurance Case #1 - OpenEMR Minimizes Disclosure of Patient Data**
 ------------------------------
 
-
+![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/main/Media/Assurance_Case1_Minimizes_Data_Disclosure.jpg)
 
 **Assesment:** 
 
@@ -16,3 +16,9 @@ Three rebuttal arguments question this claim, the first one (R2) is by presentin
 Undermine (UM1) questions evidence (E2), stating that these reports could have been doctored/modified or made internally to show favorable results and compliance.
 Sub-claim C6 counters that by stating that the reports in question are certified, not manipulated with the evidence (E3) being external audits and independent pen testing reports that cannot be internally modified.
 For Inference Rule (IR1), if the software implements adequate security and privacy controls, then it minimizes the disclosure of patient data, this statement is undercut (UC1) with the possibility of the software not being updated/supported any longer, this statement is then countered with the claim that the OpenEMR software is an open-source software with an active community of developers and has been developed and maintained for over 20 years.
+
+------------------------------------
+**Assurance Case #2 - OpenEMR's Billing & Insurance Modules Minimize Unauthorized Access **
+------------------------------------
+
+**Assesment:** 
