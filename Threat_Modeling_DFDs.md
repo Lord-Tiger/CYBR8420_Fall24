@@ -35,3 +35,12 @@ With the potential of unintended data disclosure, MFA tokens are generated local
 
 The threat modeling tool itself is pretty helpful, but it could feel a bit dated since modern software is dependent on many moving parts that it may not be able to automatically identify. Today, you don’t normally have a web application hanging on the internet on its own, there are always multiple layers of security involved, including those outside the codebase, such as web application firewalls (WAF) that can conduct input validations and prevent injection attacks for instance. Such solutions can fill some gaps not in the original code, such as geo blocking. That’s not to say that the software code itself is not secure enough, on the contrary, it seems like the community developers are doing a great job addressing all security issues as they arise for OpenEMR.
 
+
+------------------------------
+**Team Reflection**
+------------------------------
+For this phase of our project, we focused on building a Data Flow Diagram (DFD) for our use case. We held a meeting with our professor to seek guidance, and it was decided that we would concentrate on the authentication component, as it encompasses many of the system's processes. Following the meeting, we developed the initial DFD and reconvened on Sunday to further refine and expand it.
+
+The primary takeaway from this activity has been recognizing the value of threat modeling software. It highlighted potential security issues we had not previously considered, prompting us to conduct a deeper analysis to categorize and determine the relevance of various threats. Additionally, we needed to research historical and current issues or gaps within the software to understand how similar vulnerabilities have been addressed in the past.
+
+In summary, this activity has encouraged us to proactively consider security flaws during the design process and leverage the threat modeling tool to uncover additional vulnerabilities, ultimately strengthening the system’s overall security
