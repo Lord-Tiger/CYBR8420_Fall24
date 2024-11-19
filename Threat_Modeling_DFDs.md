@@ -14,7 +14,8 @@
 
 The threat modeling tool’s automated analysis mode identified 55 threats based on the user access and authentication flow diagram we created, only 14 of these threats are relevant to OpenEMR and its scope of operation. Here are some of the relevant threats that were found based on their categories.
 
-**Repudiation:** The threat of repudiation is mitigated through the use of system and user activity logs.
+**Repudiation:**
+The threat of repudiation is mitigated through the use of system and user activity logs.
 
 **Tampering:** The threat of tampering with the data is limited since only authorized accounts are allowed to make data changes.
 
