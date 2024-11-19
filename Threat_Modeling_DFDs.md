@@ -43,4 +43,22 @@ For this phase of our project, we focused on building a Data Flow Diagram (DFD) 
 
 The primary takeaway from this activity has been recognizing the value of threat modeling software. It highlighted potential security issues we had not previously considered, prompting us to conduct a deeper analysis to categorize and determine the relevance of various threats. Additionally, we needed to research historical and current issues or gaps within the software to understand how similar vulnerabilities have been addressed in the past.
 
-In summary, this activity has encouraged us to proactively consider security flaws during the design process and leverage the threat modeling tool to uncover additional vulnerabilities, ultimately strengthening the system’s overall security
+In summary, this activity has encouraged us to proactively consider security flaws during the design process and leverage the threat modeling tool to uncover additional vulnerabilities, ultimately strengthening the system’s overall security.
+
+-------------------------------------------------------
+**Reference Links:**
+-------------------------------------------------------
+<https://github.com/openemr/openemr>
+
+<https://www.open-emr.org/wiki/index.php/Security_Assessment>
+
+<https://www.open-emr.org/wiki/index.php/Securing_OpenEMR>
+
+<https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md>
+
+<https://www.securityweek.com/vulnerabilities-in-openemr-healthcare-software-expose-patient-data/>
+
+<https://community.open-emr.org/c/security/17>
+
+<https://www.open-emr.org/wiki/index.php/1._Password_policy_enhancements#:~:text=If%20the%20entered%20password%20is,not%20a%20letter%20or%20number).>
+
