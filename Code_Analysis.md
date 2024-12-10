@@ -129,7 +129,16 @@ On the flip side, it identified an issue with the code that would allow a user t
 
 The code appears to be well-written and follows a lot of the best practices, in our manual review we found that most of the software files contained comments and descriptions of what each file does and the different lines of codes. There were no hard-coded passwords or tokens beside the ones found in the test files that are not meant for production use but for administrative testing of the software. Our automated scans using SonarQube resultes in 79 open security issues, 15,000 open reliablity issues, and 68,000 maintainability issues according to the final report.
 
-The GitHub CodeQL scan resulted in numerous issues in the JavaScript code such as Bad HTML filtering of regex as well as incomplete multi-character sanitization that may cause an HTML element injection vulnerability.
+The GitHub CodeQL scan resulted in numerous issues in the JavaScript code such as Bad HTML filtering of regex as well as incomplete multi-character sanitization that may cause an HTML element injection vulnerability. In our review, we focused on the checklist below and how some of the essential functions of the software may actually be affected.
+
+- CWE-20: Improper Input Validation
+- CWE-116: Improper Encoding or Escaping of Output
+- CWE-352: Cross-Site Request Forgery (CSRF)
+- CWE-798: Use of Hardcoded Credentials
+- CWE-285: Improper Authorization
+- CWE-311: Missing Encryption of Sensitive Data
+- CWE-89: SQL Injection
+- CWE-79: Improper Neutralization of Input During Web Page Generation ('XSS')
 
 **Project Contributions:**
 
