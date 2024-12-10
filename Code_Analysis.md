@@ -18,6 +18,8 @@ We ran manual and automated tests. In the manual tests, we evaluated the followi
 - oauth2/authorize.php
 - interface/usergroup/adminacl.php
 
+Lack of experience in the PHP and JavaScript programming languages, at least to the level where we would be able to look at code and identify issues with the code quality beside basic intermediate things like hard coded credentials and lack of encryption on critical strings was a challenge, we overcame this challenge through research and the use of AI. AI was able to explain coding lines. The software itself was also well-documented, most scripts we looked at had comments and good descriptions of each script and its functions.
+
 --------------------------------
 **Manual Code Review**
 --------------------------------
@@ -62,6 +64,23 @@ Only the authorize action ($_GET["mode"] == "authorize") checks the CSRF token. 
 
 **Mitigation:** Enforce CSRF validation on all state-changing requests.
 Use secure and hidden CSRF tokens consistently
+
+--------------------------------
+**Automated Code Review**
+--------------------------------
+For the automated tests we conducted on OpenEMR, we chose two tools, SonarQube cloud and CodeQL which is offered by GitHub, both of our choices were influenced by the fact that both offer robust scanning capabilities directly on GitHub repositories. We forked the official OpenEMR repository and ran our scans on it using both tools. SonarQube helped us scanning the entire code from a PHP perspective since it’s the main language that the software uses, while CodeQL helped evaluate the JavaScript code which accounts to only about 4.9% of our code yet still a vital part that handles functions users interact with as shown below.
+
+![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/02c50dce979315008fa2cc2b3f10d7418c9636eb/Media/SonarQube11.png)
+
+![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/02c50dce979315008fa2cc2b3f10d7418c9636eb/Media/CodeQL.png)
+
+SonarQube calculated a passing quality grade for the OpenEMR code as it stands with its latest version, still highlighted about 79 open security issues. Most of the issues appeared to flag issues with test files that the developers included for various tests. For instance, it flagged this script that is intended for de-identifying an OpenEMR database for the purpose of creating a live demo or for development using real data while keeping patient identities a secret by generating random data making this a false alarm.
+
+![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/5dfe99cf7ee7eb59f15d060cab87e70d6fac01ea/Media/SonarQube2.png)
+
+On the flip side, it identified an issue with the code that would allow a user to craft an HTTP request with malicious content. This issue appears to have been introduced to the code years ago, it’s not been tested whether this is indeed exploitable, however.
+
+![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/5dfe99cf7ee7eb59f15d060cab87e70d6fac01ea/Media/SonarQube3.png)
 
 ------------------------------
 **Part 2: Key Findings and Contributions**
