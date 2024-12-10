@@ -131,6 +131,10 @@ The code appears to be well-written and follows a lot of the best practices, in 
 
 The GitHub CodeQL scan resulted in numerous issues in the JavaScript code such as Bad HTML filtering of regex as well as incomplete multi-character sanitization that may cause an HTML element injection vulnerability.
 
+**Project Contributions:**
+
+While we may lack the experience to contribute code to the project, the results of our review and scans can be valuable contributions to the project as they allow the dedicated contributors and the large developement community of the OpenEMR project to validate the parts of the code that were identified in our reports for the presence of security issues, addresses real ones and flag false postivies as such.
+
 **Team Reflection:**
 
 For this project, our group faced more challenges than usual since none of us have a background in coding. After meeting with the professor, we received valuable guidance on how to approach the task. Our objective was to scan the entire repository, map it to relevant CWE categories, and reflect on our findings. Initially, we struggled with dividing responsibilities among team members.
