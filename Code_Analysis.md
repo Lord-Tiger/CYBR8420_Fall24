@@ -86,7 +86,7 @@ On the flip side, it identified an issue with the code that would allow a user t
 **Part 2: Key Findings and Contributions**
 ------------------------------
 
-**Reflection:**
+**Team Reflection:**
 
 For this project, our group faced more challenges than usual since none of us have a background in coding. After meeting with the professor, we received valuable guidance on how to approach the task. Our objective was to scan the entire repository, map it to relevant CWE categories, and reflect on our findings. Initially, we struggled with dividing responsibilities among team members.
 
