@@ -14,3 +14,7 @@ We start this report by identifying common CWEs that affect software code and ar
 - CWE-79: Improper Neutralization of Input During Web Page Generation ('XSS')
 
 We ran manual and automated tests. In the manual tests, we evaluated the following files that control essential functions of the software such as login, authorization and role assignments.
+
+------------------------------
+**Part 2: Key Findings and Contributions**
+------------------------------
