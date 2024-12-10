@@ -142,3 +142,15 @@ For this project, our group faced more challenges than usual since none of us ha
 To tackle this, we relied on AI and referred to our previously submitted assignments. One team member conducted the static code analysis with the assistance of AI, while the automated analysis was performed by forking the repository into our GitHub and running a scan using SonarCloud. Given our limited coding expertise, AI proved to be an invaluable tool throughout the process.
 
 The most significant challenge we faced was mapping our findings to the appropriate CWE categories, particularly with the list we had compiled. Aside from this, we did not uncover many issues, as it seems the developers had addressed most vulnerabilities prior to production—at least, that was our assumption based on the results.
+
+**Links:**
+-----------
+[Internal Project Tasks](https://github.com/users/Lord-Tiger/projects/3)
+
+[Offical OpenEMR Repository](https://github.com/openemr/openemr)
+
+<https://www.open-emr.org/wiki/index.php/Security_Assessment>
+
+<https://www.open-emr.org/wiki/index.php/Securing_OpenEMR>
+
+<https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md>
