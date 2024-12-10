@@ -24,6 +24,9 @@ Lack of experience in the PHP and JavaScript programming languages, at least to 
 **Manual Code Review**
 --------------------------------
 
+**Evaluating "interface/login/login.php"**
+-------------------------------------
+
 **CWE-89: SQL Injection**
 
 **Issue:**
@@ -55,15 +58,46 @@ Example:
     
 **Mitigation:** Implement stricter role-based access control (RBAC). Validate session values like $_SESSION['userauthorized'] rigorously.
 
+**Evaluating "oauth2/authorize.php"**
+-------------------------------------
+
 **CWE-352: Cross-Site Request Forgery (CSRF)**
 
 **Issue:** 
-CSRF protection is implemented via CsrfUtils::verifyCsrfToken(), but not consistently:
+CSRF protection is implemented via the "CsrfUtils::verifyCsrfToken()" function, but not consistently across the board:
 
-Only the authorize action ($_GET["mode"] == "authorize") checks the CSRF token. Other actions and AJAX calls do not validate CSRF tokens.
+Only the authorization action ($_GET["mode"] == "authorize") checks the CSRF token. Other actions and AJAX calls in the script do not validate CSRF tokens.
 
 **Mitigation:** Enforce CSRF validation on all state-changing requests.
 Use secure and hidden CSRF tokens consistently
+
+**CWE-20: Improper Input Validation**
+
+**Issue:**
+
+A potential issue with $_GET['site'] directly being assigned a global variable value without additional validation.
+
+**Mitigation: Sanitize all inputs properly, including $gbl::$SITE and any other request parameters.
+
+**CWE-116: Improper Encoding or Escaping of Output**
+
+**Issue:**
+
+The code does not explicitly ensure that all outputs (e.g., in error messages) are encoded or escaped, which might lead to issues like reflected XSS if values are rendered in a response.
+
+**CWE-285: Improper Authorization**
+
+**Issue:**
+
+Access control seems to rely on conditions like $ignoreAuth = true or $gbl::$SITE checks. However, if these checks are improperly implemented or bypassed, it could allow unauthorized access to sensitive endpoints.
+**CWE-311: Missing Encryption of Sensitive Data**
+
+Issue:**
+
+The SessionUtil::oauthSessionStart and SessionUtil::oauthSessionCookieDestroy methods are invoked.
+
+**Mitigation:** Session cookies are marked “HttpOnly” and “Secure”, sessions should be invalidated upon logout or token expiration. Ensuring encryption is used wherever sensitive data is processed, especially for session cookies and CSRF tokens.
+
 
 --------------------------------
 **Automated Code Review**
