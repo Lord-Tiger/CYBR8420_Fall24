@@ -1,3 +1,7 @@
+------------------------------
+**Part 1: Code Review**
+------------------------------
+
 We start this report by identifying common CWEs that affect software code and are of critical importance, these CWEs are as follows:
 
 - CWE-20: Improper Input Validation
