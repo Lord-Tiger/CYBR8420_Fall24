@@ -10,5 +10,7 @@ We start this report by identifying common CWEs that affect software code and ar
 - CWE-798: Use of Hardcoded Credentials
 - CWE-285: Improper Authorization
 - CWE-311: Missing Encryption of Sensitive Data
+- CWE-89: SQL Injection
+- CWE-79: Improper Neutralization of Input During Web Page Generation ('XSS')
 
 We ran manual and automated tests. In the manual tests, we evaluated the following files that control essential functions of the software such as login, authorization and role assignments.
