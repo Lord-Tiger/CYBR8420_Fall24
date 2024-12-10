@@ -18,45 +18,59 @@ We ran manual and automated tests. In the manual tests, we evaluated the followi
 - oauth2/authorize.php
 - interface/usergroup/adminacl.php
 
+--------------------------------
 **Manual Code Review**
-CWE-89: SQL Injection
+--------------------------------
 
-Issue:
+**CWE-89: SQL Injection**
+
+**Issue:**
 
 The SQL queries use sqlStatement but do not clearly demonstrate parameterized queries. The following code taken from 63-64 of OpenEMRs login code shows a good security implementation. However, it is important to ensure all such queries are parameterized throughout the codebase.
 
     $sql = "SELECT option_id, title,is_default FROM list_options WHERE list_id=? and activity=1 ORDER BY seq, option_id";
     $rs = sqlStatement($sql, ['apps']);
 
-Mitigation: Validate that all SQL queries across the platform use parameterized queries. Always sanitize input when constructing queries dynamically.
+**Mitigation:** Validate that all SQL queries across the platform use parameterized queries. Always sanitize input when constructing queries dynamically.
 
-CWE-79: Improper Neutralization of Input During Web Page Generation ('XSS')
+**CWE-79: Improper Neutralization of Input During Web Page Generation ('XSS')**
 
-Issue:
+**Issue:**
 On line 87-88 of the login code, User-provided input like $_REQUEST['app'] is being processed and used to generate HTML, which might lead to XSS if attr() and other sanitization functions are insufficient or not uniformly applied:
     
     $div_app = sprintf('', attr($_REQUEST['app']));
 
-Mitigation: The developers must ensure all inputs are sanitized using robust methods like htmlspecialchars() or equivalent. Apply output encoding consistently when rendering HTML, especially for dynamic inputs.
+**Mitigation:** The developers must ensure all inputs are sanitized using robust methods like htmlspecialchars() or equivalent. Apply output encoding consistently when rendering HTML, especially for dynamic inputs.
 
-CWE-285: Improper Authorization
+**CWE-285: Improper Authorization**
     
-Issue: Starting on line 32 of the authorization script of OpenEMR. Authorization checks ($imauthorized) depend on $_SESSION['userauthorized'] and $see_auth values, which might not fully reflect user roles or permissions.
+**Issue:**  
+
+Starting on line 32 of the authorization script of OpenEMR. Authorization checks ($imauthorized) depend on $_SESSION['userauthorized'] and $see_auth values, which might not fully reflect user roles or permissions.
 Example: 
 
     $see_auth > 2 might grant excessive privileges.
     
-Mitigation: Implement stricter role-based access control (RBAC). Validate session values like $_SESSION['userauthorized'] rigorously.
+**Mitigation:** Implement stricter role-based access control (RBAC). Validate session values like $_SESSION['userauthorized'] rigorously.
 
-CWE-352: Cross-Site Request Forgery (CSRF)
+**CWE-352: Cross-Site Request Forgery (CSRF)**
 
-**Issue:** CSRF protection is implemented via CsrfUtils::verifyCsrfToken(), but not consistently:
+**Issue:** 
+CSRF protection is implemented via CsrfUtils::verifyCsrfToken(), but not consistently:
 
 Only the authorize action ($_GET["mode"] == "authorize") checks the CSRF token. Other actions and AJAX calls do not validate CSRF tokens.
 
-Mitigation: Enforce CSRF validation on all state-changing requests.
+**Mitigation:** Enforce CSRF validation on all state-changing requests.
 Use secure and hidden CSRF tokens consistently
 
 ------------------------------
 **Part 2: Key Findings and Contributions**
 ------------------------------
+
+**Reflection:**
+
+For this project, our group faced more challenges than usual since none of us have a background in coding. After meeting with the professor, we received valuable guidance on how to approach the task. Our objective was to scan the entire repository, map it to relevant CWE categories, and reflect on our findings. Initially, we struggled with dividing responsibilities among team members.
+
+To tackle this, we relied on AI and referred to our previously submitted assignments. One team member conducted the static code analysis with the assistance of AI, while the automated analysis was performed by forking the repository into our GitHub and running a scan using SonarCloud. Given our limited coding expertise, AI proved to be an invaluable tool throughout the process.
+
+The most significant challenge we faced was mapping our findings to the appropriate CWE categories, particularly with the list we had compiled. Aside from this, we did not uncover many issues, as it seems the developers had addressed most vulnerabilities prior to production—at least, that was our assumption based on the results.
