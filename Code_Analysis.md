@@ -16,7 +16,6 @@ We ran manual and automated tests. In the manual tests, we evaluated the followi
 
 - interface/login/login.php
 - oauth2/authorize.php
-- interface/usergroup/adminacl.php
 
 Lack of experience in the PHP and JavaScript programming languages, at least to the level where we would be able to look at code and identify issues with the code quality beside basic intermediate things like hard coded credentials and lack of encryption on critical strings was a challenge, we overcame this challenge through research and the use of AI. AI was able to explain coding lines. The software itself was also well-documented, most scripts we looked at had comments and good descriptions of each script and its functions.
 
@@ -116,6 +115,8 @@ On the flip side, it identified an issue with the code that would allow a user t
 
 ![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/5dfe99cf7ee7eb59f15d060cab87e70d6fac01ea/Media/SonarQube3.png)
 
+**Project Board & Repository Link**
+
 [SonarQube Report](https://sonarcloud.io/summary/new_code?id=Lord-Tiger_CYBR8420_Fall24-openemr&branch=master)
 
 [Our Forked OpenEMR Repository](https://github.com/Lord-Tiger/CYBR8420_Fall24-openemr)
@@ -123,6 +124,12 @@ On the flip side, it identified an issue with the code that would allow a user t
 ------------------------------
 **Part 2: Key Findings and Contributions**
 ------------------------------
+
+**Summary of Findings:**
+
+The code appears to be well-written and follows a lot of the best practices, in our manual review we found that most of the software files contained comments and descriptions of what each file does and the different lines of codes. There were no hard-coded passwords or tokens beside the ones found in the test files that are not meant for production use but for administrative testing of the software. Our automated scans using SonarQube resultes in 79 open security issues, 15,000 open reliablity issues, and 68,000 maintainability issues according to the final report.
+
+The GitHub CodeQL scan resulted in numerous issues in the JavaScript code such as Bad HTML filtering of regex as well as incomplete multi-character sanitization that may cause an HTML element injection vulnerability.
 
 **Team Reflection:**
 
