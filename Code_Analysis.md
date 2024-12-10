@@ -116,6 +116,10 @@ On the flip side, it identified an issue with the code that would allow a user t
 
 ![image](https://github.com/Lord-Tiger/CYBR8420_Fall24/blob/5dfe99cf7ee7eb59f15d060cab87e70d6fac01ea/Media/SonarQube3.png)
 
+[SonarQube Report](https://sonarcloud.io/summary/new_code?id=Lord-Tiger_CYBR8420_Fall24-openemr&branch=master)
+
+[Our Forked OpenEMR Repository](https://github.com/Lord-Tiger/CYBR8420_Fall24-openemr)
+
 ------------------------------
 **Part 2: Key Findings and Contributions**
 ------------------------------
