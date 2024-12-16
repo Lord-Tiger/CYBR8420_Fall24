@@ -142,7 +142,7 @@ The GitHub CodeQL scan resulted in numerous issues in the JavaScript code such a
 
 **Project Contributions:**
 
-While we may lack the experience to contribute code to the project, the results of our review and scans can be valuable contributions to the project as they allow the dedicated contributors and the large developement community of the OpenEMR project to validate the parts of the code that were identified in our reports for the presence of security issues, addresses real ones and flag false postivies as such.
+While we may lack the experience to contribute code to the project, the results of our review and scans can be valuable contributions to the project as they allow the dedicated contributors and the large development community of the OpenEMR project to validate the parts of the code that were identified in our reports for the presence of security issues, addresses real ones and flag false positives as such.
 
 **Team Reflection:**
 
